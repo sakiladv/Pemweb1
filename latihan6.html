@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style6.css">
+  <link rel="stylesheet" href="style1,2.css">
+</head>
+<body>
+    <form action="">
+        <div class="h1">FORMULIR MAHASISWA</div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-25">
+                <label for="name">Nama</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="name" name="nama" placeholder="Masukkan Nama...">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="nim">NIM</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="nim" name="NIM" placeholder="Masukkan NIM...">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="tlahir">Tempat lahir</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="tlahir" name="TempatLahir" placeholder="Masukkan Tempat Lahir...">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="tgllahir">Tanggal lahir</label>
+                </div>
+                <div class="col-75">
+                <input type="date" id="tgllahir" name="TanggalLahir">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="jenis_kelamin">Jenis Kelamin</label>
+                </div>
+                <div class="col-25">
+                <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki <br>
+                <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan <br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="prodi">Program Studi</label>
+                </div>
+                <div class="col-75">
+                <select name="Prodi">
+                    <option value="PGSD">Pendidikan Guru Sekolah Dasar</option>
+                    <option value="PGPUD">Pendidikan Guru Anak Usia Dini</option>
+                    <option value="PKP">Pendidikan Kelautan dan Perikanan</option>
+                    <option value="LK">Logistik Kelautan</option>
+                    <option value="SIK">Sistem Informasi Kelautan</option>
+                </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="hobi">Hobi</label>
+                </div>
+                <div class="col-25">
+                <input type="checkbox" name="hobi" value="Baca"> Baca <br>
+                <input type="checkbox" name="hobi" value="Nulis"> Nulis <br>
+                <input type="checkbox" name="hobi" value="Nonton"> Nonton <br>
+                <input type="checkbox" name="hobi" value="Olahraga"> Olahraga <br>
+                <input type="checkbox" name="hobi" value="Mancing"> Mancing <br>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <input type="submit" value="Simpan">
+        </div>
+    </form>
+</body>
+</html>

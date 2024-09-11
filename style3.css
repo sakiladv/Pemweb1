@@ -1,0 +1,18 @@
+.h{
+  color: rgb(71, 75, 79);
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 40px;
+  text-align: center;
+  font-size: 28px;
+}
+.container img{
+        width: 375px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}

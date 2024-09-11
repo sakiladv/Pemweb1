@@ -1,0 +1,27 @@
+body {
+  background-color: hsl(33, 52%, 96%);
+  padding: 20px;
+}
+.h1 {
+  color: rgb(71, 75, 79);
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+}
+.p{
+  text-align: center;
+  color: rgb(71, 75, 79);
+}
+.p0{
+  text-align: justify;
+  color: rgb(71, 75, 79);
+  font-weight: bold;
+}
+.p1{
+  text-align: justify;
+  color: rgb(71, 75, 79);
+}
+
